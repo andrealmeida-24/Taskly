@@ -7,7 +7,6 @@ interface Props {
 }
 
 const TaskCompleted = ({ todo }: Props) => {
-  console.log(todo);
   return (
     <div className="taskCompleted">
       <p>{todo}</p>
