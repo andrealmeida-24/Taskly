@@ -1,5 +1,4 @@
 import React, { ChangeEvent } from "react";
-import { AiOutlinePlus } from "react-icons/ai";
 
 import "./input_field.styles.scss";
 
