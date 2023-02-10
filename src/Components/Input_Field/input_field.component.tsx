@@ -27,7 +27,7 @@ const InputField = ({ todo, setTodo, handleAdd, invalidTask }: Props) => {
         className={invalidTask ? "invalid_task" : ""}
       />
       <button className="input_submit" type="submit">
-        <AiOutlinePlus />
+        <AiOutlinePlus className="icon_submit" />
       </button>
     </form>
   );

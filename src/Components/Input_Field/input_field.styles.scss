@@ -60,7 +60,7 @@
     border-radius: 50px;
     right: 0px;
     background-color: rgba($color: #6c8ac6, $alpha: 0.7);
-    color: whitesmoke;
+    color: white;
     border: none;
     cursor: pointer;
 
@@ -70,6 +70,10 @@
 
     &:hover {
       background-color: rgba($color: #6c8ac6, $alpha: 1);
+    }
+
+    .icon_submit {
+      color: white;
     }
   }
 }
