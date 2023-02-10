@@ -1,0 +1,17 @@
+.taskList-container {
+  P {
+    font-size: 14px;
+    text-align: right;
+    margin-right: 5px;
+    color: gray;
+    cursor: pointer;
+
+    &:hover {
+      color: black;
+    }
+
+    @media screen and (min-width: 1024px) {
+      margin-bottom: 3em;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.intro-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .introImg_img {
+    width: 60vw;
+    height: 50vh;
+    margin: 0 auto;
+
+    @media screen and (min-width: 767px) {
+    }
+  }
+
+  .intro_title {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 0 2em;
+
+    @media screen and (min-width: 767px) {
+      font-size: 2em;
+    }
+  }
+
+  .intro_subtitle {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+    margin: 1em 2em auto 2em;
+
+    @media screen and (min-width: 767px) {
+      font-size: 1.5em;
+    }
+  }
+
+  .intro_btn {
+    margin: 1.5em auto;
+    padding: 10px 50px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: rgba($color: #6c8ac6, $alpha: 0.7);
+    cursor: pointer;
+
+    @media screen and (min-width: 767px) {
+      font-size: 1.5em;
+    }
+
+    &:hover {
+      background-color: rgba($color: #6c8ac6, $alpha: 1);
+      transform: scale(1.02);
+    }
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1024px) {
+  .intro-container {
+    height: auto;
+  }
+}

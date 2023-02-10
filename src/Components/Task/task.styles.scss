@@ -1,0 +1,55 @@
+.form-container {
+  width: 80vw;
+  margin: 0.5em auto;
+
+  .task {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 20px;
+    border: 1px solid #d3d3d3;
+
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+
+  .icon {
+    margin-right: 20px;
+    border: none;
+    font-size: 1.2em;
+    color: rgba($color: #6c8ac6, $alpha: 0.25);
+    cursor: pointer;
+
+    &:hover {
+      color: rgba($color: #6c8ac6, $alpha: 1);
+    }
+  }
+
+  .task_text {
+    font-size: 1em;
+    margin-right: auto;
+    font-weight: 400;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  .delete_icon {
+    font-size: 1em;
+    color: rgba($color: #0000, $alpha: 0.5);
+
+    &:hover {
+      color: rgba($color: #0000, $alpha: 1);
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: 40vw;
+  }
+}
