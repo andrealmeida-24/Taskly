@@ -1,5 +1,5 @@
 import React, { ChangeEvent } from "react";
-import { IoIosAdd } from "react-icons/io";
+
 import "./input_field.styles.scss";
 
 interface Props {
@@ -26,7 +26,7 @@ const InputField = ({ todo, setTodo, handleAdd, invalidTask }: Props) => {
         className={invalidTask ? "invalid_task" : ""}
       />
       <button className="input_submit" type="submit">
-        <IoIosAdd />
+        +
       </button>
     </form>
   );
