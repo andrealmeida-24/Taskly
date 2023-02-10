@@ -11,7 +11,7 @@ const Greet = () => {
       let hours = date.getHours();
       let greet = "";
 
-      if (hours > 0 && hours < 12) {
+      if (hours > 0 && hours <= 12) {
         greet = "Good Morning";
       } else if (hours > 12 && hours < 20) {
         greet = "Good Afternoon";
