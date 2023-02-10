@@ -52,7 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: normal;
     width: 40px;
     height: 40px;
@@ -70,10 +70,6 @@
 
     &:hover {
       background-color: rgba($color: #6c8ac6, $alpha: 1);
-    }
-
-    .icon_submit {
-      color: white;
     }
   }
 }
